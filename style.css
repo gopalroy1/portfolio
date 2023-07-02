@@ -1,10 +1,23 @@
 *{
     margin: 0;
     padding: 0;
-    color: white;
-    background-color: black;
+    /* color: white; */
+    /* background-color: black; */
     font-family: 'Inter', sans-serif;
 font-family: 'Oswald', sans-serif;
+}
+
+/* Importing fonts  */
+/* fonts for nav  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+.bg-trans{
+    background-color: transparent;
+}
+.bg-trans a li{
+    background-color: transparent;
 }
 .heading{
     color: rgb(254,252,255);
@@ -17,19 +30,12 @@ font-size: 35px;
     color: rgb(254,252,255);
     margin-bottom: 10px;
     font-family: 'Inter', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-size: 25px;
-font-weight: 500;
+   font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
 }
-p{
-    background: none;
-}
-h4{
-    background: none;
-}
-.logo-text-center{
-    display: flex;
-}
+
+
 
 /* Styling nav bar  */
 
@@ -37,53 +43,37 @@ nav {
     /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
-    width: 80vw;
-    margin: auto;
-    margin-top: 20px;
+    align-items: center;
+    padding: 0px 30px;
+    padding-top: 10px;
+    
+
 
 }
-.right-nav ul {
-    /* background-color: rgb(30, 255, 0); */
+.right-nav ul{
     display: flex;
     justify-content: space-between;
+    gap: 80px;
 }
-/* All nav items  */
-nav li{
-    list-style-type: none;
+.right-nav ul li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 43px;
+}
+
+.top-home{
+    background-image: url("/computer-home.jpg");
+    background-color: #db5252;
+    background-size: cover;
     
-}
-/* Left nav items  */
-.left-nav li{
-    list-style-type: none;
-    padding: 10px;
-    
-}
-/* Right nav items  */
-.right-nav li{
-    list-style-type: none;
-    padding: 10px;
-}
-/* Main details from here  */
-.main-detail{
-    display: flex;
-    justify-content: space-between;
-    /* border: 2px solid red; */
-}
-.main-image{
-    width: 50vw;
-    /* background-color: rebeccapurple; */
 }
 .intro{
-    margin-top: 400px;
-    /* background-color: yellow; */
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 200px;
+    padding: 0px 157px;
+    padding-top: 250px;
+    padding-bottom: 320px;
+}
 
-}
-.main-image img{
-    width: 600px;
-}
+/* Main details from here  */
 
 /* About me section  */
 
